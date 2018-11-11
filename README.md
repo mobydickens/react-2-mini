@@ -12,15 +12,15 @@ In this project we will create an application that can change the theme of a par
 
 ## Setup
 
-* `fork` and `clone` this repository.
+<!-- * `fork` and `clone` this repository.
 * `cd` into the project directory.
 * Run `npm install`.
-* Run `npm start` after `npm install` has finished.
+* Run `npm start` after `npm install` has finished. -->
 
 <img src="https://github.com/DevMountain/react-2-mini/blob/solution/readme/2.png" />
 
 ## Step 1
-
+<!-- 
 ### Summary
 
 In this step, we will create the initial state for `src/App.js`. On this state object, we will keep track of the initial theme values and if the theme is allowed to be edited.
@@ -34,7 +34,7 @@ In this step, we will create the initial state for `src/App.js`. On this state o
     * fontColor: 'black',
     * fontSize: 12,
     * fontFamily: 'monospace',
-    * allowEdit: 'true'
+    * allowEdit: 'true' -->
 
 ### Solution
 
@@ -101,7 +101,7 @@ In this step, we will create class methods in `src/App.js` to update `fontColor`
 
 ### Instructions
 
-* Open `src/App.js`.
+<!-- * Open `src/App.js`.
 * Create an `updateColor` method that takes a parameter called `val` where it says `// updateColor`:
   * Use `setState` to update `fontColor` to `val`.
 * Create an `updateSize` method that takes a parameter called `val` where it says `// updateSize`:
@@ -109,7 +109,7 @@ In this step, we will create class methods in `src/App.js` to update `fontColor`
 * Create an `updateFamily` method that takes a parameter called `val` where it says `// updateFamily`:
   * Use `setState` to update `fontFamily` to `val`.
 * Create an `updateEditStatus` method that takes a parameter called `val` where it says `// updateEditStatus`:
-  * Use `setState` to update `allowEdit` to `val`.
+  * Use `setState` to update `allowEdit` to `val`. -->
 
 ### Solution
 
@@ -264,7 +264,7 @@ export default App;
 In this step, we will `render` our imported components in `App.js`.
 
 ### Instructions
-
+<!-- 
 * Open `src/App.js`.
 * Render the `EditToggle` component where it says `{ /* Render EditToggle */ }`:
   * Add a prop called `update` that is equal to the `updateEditStatus` method.
@@ -282,7 +282,7 @@ In this step, we will `render` our imported components in `App.js`.
   * Add a prop called `fontSize` that equals `fontSize` on state.
   * Add a prop called `fontFamily` that equals `fontFamily` on state.
 
-### Solution
+### Solution -->
 
 <details>
 
